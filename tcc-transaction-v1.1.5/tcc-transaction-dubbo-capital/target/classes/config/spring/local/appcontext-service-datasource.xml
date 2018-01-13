@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- ==================================================================== -->
+	<!-- 龙果学院 (www.roncoo.com) 超级教程系列 -->
+	<!-- 《微服务架构的分布式事务解决方案》视频教�? -->
+	<!-- 讲师：吴水成（水到渠成）�?840765167@qq.com -->
+	<!-- 课程地址：http://www.roncoo.com/course/view/7ae3d7eddc4742f78b0548aa8bd9ccdb -->
+	<!-- ==================================================================== -->
+
+    <util:properties id="jdbc" location="classpath:jdbc.properties"/>
+
+	<!-- 业务数据�? -->
+    <bean id="capitalDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close" lazy-init="false">
+        <property name="driverClass" value="#{jdbc['jdbc.driverClassName']}"/>
+        <property name="jdbcUrl" value="#{jdbc['jdbc.url']}"/>
+        <property name="user" value="#{jdbc['jdbc.username']}"/>
+        <property name="password" value="#{jdbc['jdbc.password']}"/>
+        <property name="initialPoolSize" value="#{jdbc['c3p0.initialPoolSize']}"/>
+        <property name="minPoolSize" value="#{jdbc['c3p0.minPoolSize']}"/>
+        <property name="maxPoolSize" value="#{jdbc['c3p0.maxPoolSize']}"/>
+        <property name="acquireIncrement" value="#{jdbc['c3p0.acquireIncrement']}"/>
+        <property name="maxIdleTime" value="#{jdbc['c3p0.maxIdleTime']}"/>
+        <property name="checkoutTimeout" value="#{jdbc['c3p0.checkoutTimeout']}"/>
+    </bean>
+
+	<!-- TCC事务日志库数据源 -->
+    <bean id="tccDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close" lazy-init="false">
+        <property name="driverClass" value="#{jdbc['jdbc.driverClassName']}"/>
+        <property name="jdbcUrl" value="#{jdbc['tcc.jdbc.url']}"/>
+        <property name="user" value="#{jdbc['jdbc.username']}"/>
+        <property name="password" value="#{jdbc['jdbc.password']}"/>
+        <property name="initialPoolSize" value="#{jdbc['c3p0.initialPoolSize']}"/>
+        <property name="minPoolSize" value="#{jdbc['c3p0.minPoolSize']}"/>
+        <property name="maxPoolSize" value="#{jdbc['c3p0.maxPoolSize']}"/>
+        <property name="acquireIncrement" value="#{jdbc['c3p0.acquireIncrement']}"/>
+        <property name="maxIdleTime" value="#{jdbc['c3p0.maxIdleTime']}"/>
+        <property name="checkoutTimeout" value="#{jdbc['c3p0.checkoutTimeout']}"/>
+    </bean>
+
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="capitalDataSource"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager" order="2"/>
+
+    <!-- <aop:aspectj-autoproxy proxy-target-class="true"/> -->
+
+</beans>

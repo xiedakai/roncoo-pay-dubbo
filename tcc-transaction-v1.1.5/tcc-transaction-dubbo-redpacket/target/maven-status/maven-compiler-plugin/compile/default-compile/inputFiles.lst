@@ -1,0 +1,8 @@
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\service\RedPacketTradeOrderServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\entity\RedPacketAccount.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\entity\TradeOrder.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\service\RedPacketAccountServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\infrastructure\dao\RedPacketAccountDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\repository\TradeOrderRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\infrastructure\dao\TradeOrderDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-redpacket\src\main\java\org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\repository\RedPacketAccountRepository.java

@@ -1,0 +1,4 @@
+com\roncoo\pay\service\message\entity\RpTransactionMessage.class
+com\roncoo\pay\service\message\exceptions\MessageBizException.class
+com\roncoo\pay\service\message\api\RpTransactionMessageService.class
+com\roncoo\pay\service\message\enums\MessageStatusEnum.class

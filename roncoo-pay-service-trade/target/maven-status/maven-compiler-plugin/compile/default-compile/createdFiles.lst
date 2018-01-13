@@ -1,0 +1,7 @@
+com\roncoo\pay\service\trade\biz\impl\RpTradePaymentManagerBizImpl.class
+com\roncoo\pay\service\trade\dao\RpTradePaymentRecordDao.class
+com\roncoo\pay\service\trade\aip\impl\RpTradePaymentManagerServiceImpl.class
+com\roncoo\pay\service\trade\dao\impl\RpTradePaymentRecordDaoImpl.class
+com\roncoo\pay\service\trade\dao\RpTradePaymentOrderDao.class
+com\roncoo\pay\service\trade\aip\impl\RpTradePaymentQueryServiceImpl.class
+com\roncoo\pay\service\trade\dao\impl\RpTradePaymentOrderDaoImpl.class

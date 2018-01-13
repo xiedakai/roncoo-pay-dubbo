@@ -1,0 +1,8 @@
+org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\entity\RedPacketAccount.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\entity\TradeOrder.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\repository\RedPacketAccountRepository.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\domain\repository\TradeOrderRepository.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\service\RedPacketTradeOrderServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\infrastructure\dao\TradeOrderDao.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\service\RedPacketAccountServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\redpacket\infrastructure\dao\RedPacketAccountDao.class

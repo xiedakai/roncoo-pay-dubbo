@@ -1,0 +1,16 @@
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\api\RpUserInfoService.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\enums\CardTypeEnum.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\exceptions\PayBizException.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\exceptions\UserBizException.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\RpUserPayInfo.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\enums\BankCodeEnum.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\api\RpPayWayService.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\SeqBuild.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\api\RpPayProductService.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\api\RpUserPayConfigService.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\RpPayProduct.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\enums\FundInfoTypeEnum.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\api\RpUserPayInfoService.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\RpUserPayConfig.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\RpUserInfo.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\roncoo-pay-service-user-api\src\main\java\com\roncoo\pay\service\user\entity\RpPayWay.java

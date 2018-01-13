@@ -1,0 +1,6 @@
+com\roncoo\pay\service\point\dao\RpPointAccountDao.class
+com\roncoo\pay\service\point\dao\impl\RpPointAccountHistoryDaoImpl.class
+com\roncoo\pay\service\point\aip\impl\RpPointAccountQueryServiceImpl.class
+com\roncoo\pay\service\point\aip\impl\RpPointAccountServiceImpl.class
+com\roncoo\pay\service\point\dao\impl\RpPointAccountDaoImpl.class
+com\roncoo\pay\service\point\dao\RpPointAccountHistoryDao.class

@@ -1,0 +1,12 @@
+org\mengyun\tcctransaction\sample\dubbo\order\service\PlaceOrderServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\factory\OrderFactory.class
+org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\OrderLineDao.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\OrderRepository.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\service\PaymentServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\ProductDao.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\service\OrderServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\ProductRepository.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\ShopRepository.class
+org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\ShopDao.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\service\AccountServiceImpl.class
+org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\OrderDao.class

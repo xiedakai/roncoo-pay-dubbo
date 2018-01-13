@@ -1,0 +1,15 @@
+com\roncoo\pay\service\user\aip\impl\RpPayWayServiceImpl.class
+com\roncoo\pay\service\user\dao\RpPayProductDao.class
+com\roncoo\pay\service\user\dao\impl\RpPayWayDaoImpl.class
+com\roncoo\pay\service\user\aip\impl\RpUserInfoServiceImpl.class
+com\roncoo\pay\service\user\dao\impl\RpPayProductDaoImpl.class
+com\roncoo\pay\service\user\aip\impl\RpUserPayConfigServiceImpl.class
+com\roncoo\pay\service\user\dao\impl\RpUserInfoDaoImpl.class
+com\roncoo\pay\service\user\dao\RpPayWayDao.class
+com\roncoo\pay\service\user\dao\RpUserInfoDao.class
+com\roncoo\pay\service\user\dao\RpUserPayInfoDao.class
+com\roncoo\pay\service\user\aip\impl\RpUserPayInfoServiceImpl.class
+com\roncoo\pay\service\user\dao\impl\RpUserPayConfigDaoImpl.class
+com\roncoo\pay\service\user\aip\impl\RpPayProductServiceImpl.class
+com\roncoo\pay\service\user\dao\RpUserPayConfigDao.class
+com\roncoo\pay\service\user\dao\impl\RpUserPayInfoDaoImpl.class

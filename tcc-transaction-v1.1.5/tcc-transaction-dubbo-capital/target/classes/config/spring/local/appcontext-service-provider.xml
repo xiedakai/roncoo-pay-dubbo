@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans.xsd        http://code.alibabatech.com/schema/dubbo        http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- ==================================================================== -->
+	<!-- 龙果学院 (www.roncoo.com) 超级教程系列 -->
+	<!-- 《微服务架构的分布式事务解决方案》视频教�? -->
+	<!-- 讲师：吴水成（水到渠成）�?840765167@qq.com -->
+	<!-- 课程地址：http://www.roncoo.com/course/view/7ae3d7eddc4742f78b0548aa8bd9ccdb -->
+	<!-- ==================================================================== -->
+
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="sample-dubbo-capital"/>
+
+	<!-- 读入配置属�?�文�? -->
+    <context:property-placeholder location="classpath:sample-dubbo-capital.properties" ignore-unresolvable="true"/>
+
+	<!-- 使用zookeeper注册中心暴露服务地址 -->
+    <!--<dubbo:registry id="capitalRpcZk" address="multicast://224.5.6.7:1234?unicast=false"/>-->
+    <dubbo:registry id="capitalRpcZk" protocol="zookeeper" register="true" subscribe="false"
+                    address="${zookeeper.address}" session="${zookeeper.session.timeout}"
+                    timeout="${zookeeper.connect.timeout}" file="./.dubbo/rpc-cache"/>
+
+    <!--<dubbo:monitor protocol="registry" />-->
+
+    <!--<dubbo:registry protocol="mulitcast" address="224.5.6.7:1234" />-->
+
+    <!--<dubbo:registry address="N/A" />-->
+
+	<!-- 用dubbo协议�?${dubbo.port}端口暴露服务 ;payload:请求及响应数据包大小限制,单位：字�?,默认�?88388608(=8M)-->
+    <dubbo:protocol name="dubbo" port="${dubbo.port}" payload="52428800"/>
+    
+    <!-- 当ProtocolConfig和ServiceConfig某属性没有配置时,采用此缺省�?? -->
+	<dubbo:provider timeout="30000" threadpool="fixed" threads="100" accepts="1000" />
+
+
+	<!-- 声明�?要暴露的服务接口 -->
+    <dubbo:service interface="org.mengyun.tcctransaction.sample.dubbo.capital.api.CapitalTradeOrderService"
+                   registry="capitalRpcZk"
+                   ref="capitalTradeOrderService" timeout="60000" retries="0"/>
+
+    <dubbo:service interface="org.mengyun.tcctransaction.sample.dubbo.capital.api.CapitalAccountService"
+                   registry="capitalRpcZk"
+                   ref="capitalAccountService" timeout="60000" retries="0"/>
+                                      
+    <!--<bean id="capitalTradeOrderService"-->
+          <!--class="org.mengyun.tcctransaction.sample.dubbo.capital.service.CapitalTradeOrderServiceImpl"/>-->
+
+</beans>

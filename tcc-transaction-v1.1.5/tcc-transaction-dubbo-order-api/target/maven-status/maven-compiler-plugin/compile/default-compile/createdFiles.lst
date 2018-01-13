@@ -1,0 +1,5 @@
+org\mengyun\tcctransaction\sample\dubbo\order\domain\entity\Shop.class
+org\mengyun\tcctransaction\sample\dubbo\order\api\PlaceOrderService.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\entity\Order.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\entity\Product.class
+org\mengyun\tcctransaction\sample\dubbo\order\domain\entity\OrderLine.class

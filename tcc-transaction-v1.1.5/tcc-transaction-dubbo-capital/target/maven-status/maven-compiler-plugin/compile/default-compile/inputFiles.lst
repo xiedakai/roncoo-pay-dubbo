@@ -1,0 +1,8 @@
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\domain\repository\TradeOrderRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\infrastructure\dao\TradeOrderDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\domain\repository\CapitalAccountRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\service\CapitalAccountServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\service\CapitalTradeOrderServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\domain\entity\CapitalAccount.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\domain\entity\TradeOrder.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-capital\src\main\java\org\mengyun\tcctransaction\sample\dubbo\capital\infrastructure\dao\CapitalAccountDao.java

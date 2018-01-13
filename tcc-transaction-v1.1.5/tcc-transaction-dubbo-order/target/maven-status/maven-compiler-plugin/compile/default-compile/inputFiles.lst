@@ -1,0 +1,12 @@
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\ProductDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\service\PaymentServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\OrderLineDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\ShopRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\service\AccountServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\OrderDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\OrderRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\factory\OrderFactory.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\repository\ProductRepository.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\service\PlaceOrderServiceImpl.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\infrastructure\dao\ShopDao.java
+E:\dubbo_project\transaction\cachexic-pay-dubbo-master\tcc-transaction-v1.1.5\tcc-transaction-dubbo-order\src\main\java\org\mengyun\tcctransaction\sample\dubbo\order\domain\service\OrderServiceImpl.java

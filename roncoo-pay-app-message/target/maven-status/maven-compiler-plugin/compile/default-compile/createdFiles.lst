@@ -1,0 +1,6 @@
+com\roncoo\pay\app\message\scheduled\MessageScheduled.class
+com\roncoo\pay\app\message\MessageTask$2.class
+com\roncoo\pay\app\message\MessageTask.class
+com\roncoo\pay\app\message\scheduled\impl\MessageScheduledImpl.class
+com\roncoo\pay\app\message\MessageTask$1.class
+com\roncoo\pay\app\message\biz\MessageBiz.class

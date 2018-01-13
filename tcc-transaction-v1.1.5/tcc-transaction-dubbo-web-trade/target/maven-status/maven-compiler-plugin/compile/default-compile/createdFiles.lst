@@ -1,0 +1,2 @@
+org\mengyun\tcctransaction\sample\dubbo\order\web\controller\OrderController.class
+org\mengyun\tcctransaction\sample\dubbo\order\web\controller\vo\PlaceOrderRequest.class

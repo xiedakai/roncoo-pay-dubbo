@@ -1,0 +1,4 @@
+org\mengyun\tcctransaction\api\TransactionContext.class
+org\mengyun\tcctransaction\api\TransactionStatus.class
+org\mengyun\tcctransaction\api\TransactionXid.class
+org\mengyun\tcctransaction\api\UuidUtils.class
